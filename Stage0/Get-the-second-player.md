@@ -6,11 +6,11 @@
   
 ## Acceptance criteria
 
-### Scenario: Player1 invites another player
+### Scenario: First player invites another player
 
   Given - An active device with game installed in it and 'add-player' button is displayed
   
-  When - Player1 clicks on 'invite-player'
+  When - First player clicks on 'invite-player'
   
   Then - show list of players to choose from
   
