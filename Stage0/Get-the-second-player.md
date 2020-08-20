@@ -1,4 +1,4 @@
-# Add a second player 
+# Add a second player
 
 ## Feature
 
