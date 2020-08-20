@@ -6,7 +6,7 @@ Handles game rules and keeps score
 
 ## Acceptance Criteria
 
-### Scenario: 
+### Scenario
 
   Given -give-initial-values-and-conditions
 
