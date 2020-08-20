@@ -1,4 +1,4 @@
-# PLaying the game
+# Playing the game
 
 ## Feature
 
@@ -6,12 +6,26 @@ Handles game rules and keeps score
 
 ## Acceptance Criteria
 
-### Scenario
+### Scenario: A player scores a point
 
-  Given -give-initial-values-and-conditions
+  Given - Devices with the game installed in them
 
-  When -event-happens
+  When - Any player scores a point and there is time left
 
-  Then -module-does-this
+  Then - Update the scores and check if maximum points are scored
 
-### -add-scenario-if-needed
+### Scenario: Maximum points are reached
+
+  Given - Devices with the game installed in them
+  
+  When - any player scores maximum points
+  
+  Then - Declare the winner and prompt for 'another-round or 'go-back'
+  
+### Scenario: The timer times out
+
+  Given - Devices with the game installed in them
+  
+  When - The round is timed out
+  
+  Then - Declare a winner or tie depending on the score and prompt for 'another-round' or ''go-back'
