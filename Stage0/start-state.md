@@ -21,7 +21,7 @@ Starts a new game or resumes a pending one based on user choice
   When - User opens the game
   
   Then - Display the game board with initial statistics and 'start-game' button
- 
+  
 ### Scenario: Player chooses to resume an old game
 
   Given - An active device with game installed in it
