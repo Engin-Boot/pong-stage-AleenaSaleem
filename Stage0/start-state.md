@@ -36,4 +36,4 @@ Starts a new game or resumes a pending one based on user choice
   
   When - User clicks on 'start-game'  button
   
-  Then - Trigger the 'add-player' module
+  Then - Trigger the 'Get-the-second-player' module
