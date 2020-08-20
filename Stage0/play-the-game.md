@@ -1,12 +1,12 @@
-# -give-this-module-a-name
+# PLaying the game
 
 ## Feature
 
-What part of the game does this module deliver?
+Handles game rules and keeps score
 
 ## Acceptance Criteria
 
-### Scenario: -describe-a-scenario-of-this-module
+### Scenario: 
 
   Given -give-initial-values-and-conditions
 
