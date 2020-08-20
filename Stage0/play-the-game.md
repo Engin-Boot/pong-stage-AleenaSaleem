@@ -28,4 +28,5 @@ Handles game rules and keeps score
   
   When - The round is timed out
   
-  Then - Declare a winner or tie depending on the score and prompt for 'another-round' or ''go-back'
+  Then - Declare a winner or tie depending on the score and
+  prompt for 'another-round' or ''go-back'
