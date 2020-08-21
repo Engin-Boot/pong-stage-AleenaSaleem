@@ -19,7 +19,7 @@
 
   Given - Active device with game installed in it
   
-  When - the deivce shuts down during an active game
+  When - the device shuts down during an active game
   
   Then - On reopening the game, trigger the 'start-state' module
   
