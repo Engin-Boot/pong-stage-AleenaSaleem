@@ -2,7 +2,7 @@
 
 * The stage 0 of pong game captures the basics of it
 
-* Those basics include diffferent modules as described below:
+* Those basics include different modules as described below:
 
   * Start-state: This module captures all the scenarios that can occur
   when the game is opened
@@ -18,4 +18,4 @@
   * Exceptions: This modules captures all the external and internal
   exceptions during a game
 
-* The interaction among above module has been illustrated in 'sequence-start.md'
+* The interaction among above module has been illustrated in **sequence start** file
