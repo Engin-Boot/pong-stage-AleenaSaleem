@@ -6,34 +6,21 @@
   
 ## Acceptance criteria
 
-### Scenario: First player invites another player
+### Scenario: Second player is available
 
-  Given - An active device with game installed in it and 'add-player' button is displayed
+  Given - An active device with game installed in it and
+  'add-player' or 'play-single' button is displayed
   
-  When - First player clicks on 'invite-player'
+  When - First player clicks on 'add-player'
   
-  Then - show list of players to choose from
+  Then - show text box to get the second player's name and
+  trigger 'play-the-game' module
   
-### Scenario: second player is chosen
-
-  Given - An active device with game installed in it
-  
-  When - A player chooses another player to invite
-  
-  Then -  notify the second player to either 'accept' or 'decline'
-  
-### Scenario: Second player accepts
-
-  Given: An active device with game installed in it
-  
-  When - second player accepts the invite
-  
-  Then - start the game and trigger the 'play-the-game' module
-  
-### Scenario: Second player declines
+### Scenario: second player is not available
 
   Given - An active device with game installed in it
   
-  When - Second player declines the invite
+  When - A player chooses to 'play-single'
   
-  Then - notify the first player and prompt to 'choose-another-player' or 'exit'
+  Then -  Single player plays both the sides and
+  trigger 'play-the-game' module
