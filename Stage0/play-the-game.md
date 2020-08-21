@@ -8,25 +8,27 @@ Maintains scores and time for game rounds
 
 ### Scenario: A player scores a point
 
-  Given - Devices with the game installed in them
+  Given - An active device with the game installed in it
 
   When - Any player scores a point and there is time left
 
-  Then - Update the scores and check if maximum points are scored
+  Then - Update the scores depending on the game type
+  and check if maximum points are scored
 
 ### Scenario: Maximum points are reached
 
-  Given - Devices with the game installed in them
+  Given - An active device with the game installed in it
   
   When - any player scores maximum points
   
-  Then - Declare the winner and prompt for 'another-round or 'go-back'
+  Then - Declare the winner or high score depending on the game type
+  and prompt for 'another-round or 'go-back'
   
-### Scenario: The timer times out
+### Scenario: The timer times out in either single or double player
 
-  Given - Devices with the game installed in them
+  Given - An active device with the game installed in it
   
   When - The round is timed out
   
-  Then - Declare a winner or tie depending on the score and
-  prompt for 'another-round' or 'go-back'
+  Then - Declare a winner or high score or tie depending on the score and game type
+  and prompt for 'another-round' or 'go-back'
