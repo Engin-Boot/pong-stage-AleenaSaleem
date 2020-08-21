@@ -8,7 +8,7 @@
   
 ### Scenario: No activity for long (some threshold passed) time
   
-  Given - Active devices with game installed in it
+  Given - Active device with game installed in it
   
   When - The game board has been idle for a long time
   
@@ -17,26 +17,24 @@
   
 ### Scenario: One of the devices shut abruptly
 
-  Given - Active devices with game installed in it
+  Given - Active device with game installed in it
   
-  When - One of the devices go powerless
+  When - the deivce goes powerless during an active game
   
-  Then - Notify the active player that the other player went offline
-  and prompt if the player wants to 'start-over' or 'exit'
+  Then - On reopening the game, trigger the 'start-state' module 
   
 ### Scenario: The game is closed
 
-  Given - Active devices with game installed in it
+  Given - Active device with game installed in it
   
-  When - one of the wants to close the game
+  When - A player wants to close the game
   
   Then - confirm if player really wants to 'exit' or 'resume'
   
 ### Scenario: A player confirms exit
 
-  Given - Active devices with game installed in it
+  Given - Active device with game installed in it
   
   When - player confirms game exit
   
-  Then - Notify the active player that the other player went offline
-  and prompt if the player wants to 'start-over' or 'exit'
+  Then - log the statistics and exit
