@@ -19,7 +19,7 @@
 
   Given - Active device with game installed in it
   
-  When - the deivce goes powerless during an active game
+  When - the deivce goes power-less during an active game
   
   Then - On reopening the game, trigger the 'start-state' module
   
