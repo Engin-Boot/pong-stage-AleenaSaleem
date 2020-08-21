@@ -2,7 +2,7 @@
 
 ## Feature
 
-Handles game rules and keeps score
+Maintains scores and time for game rounds
 
 ## Acceptance Criteria
 
