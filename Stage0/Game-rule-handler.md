@@ -18,7 +18,7 @@
 
   Given - An active device with game installed in it
   
-  When - Opponent stops the pong with his/her paddle
-  which is moving with certain pre-defined speed
+  When - Opponent stops the pong with his or her paddle
+  (paddle moves with certain predefined speed)
   
-  Then - Ball bounces back with certain pre-defined speed
+  Then - ball bounces back with certain predefined speed
