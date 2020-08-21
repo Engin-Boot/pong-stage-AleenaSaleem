@@ -6,7 +6,7 @@
   
 ## Acceptance Criteria
   
-### Scenario: No activity for long (some threshold passed) time
+### Scenario: No activity for long (some threshold) time
   
   Given - Active device with game installed in it
   
@@ -15,11 +15,11 @@
   Then - Either the device sleeps off or
   prompt if the player wants to 'continue' or 'exit'
   
-### Scenario: One of the devices shut abruptly
+### Scenario: The device shuts abruptly
 
   Given - Active device with game installed in it
   
-  When - the deivce goes power-less during an active game
+  When - the deivce shuts down during an active game
   
   Then - On reopening the game, trigger the 'start-state' module
   
