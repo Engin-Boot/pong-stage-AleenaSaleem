@@ -21,7 +21,7 @@
   
   When - the deivce goes powerless during an active game
   
-  Then - On reopening the game, trigger the 'start-state' module 
+  Then - On reopening the game, trigger the 'start-state' module
   
 ### Scenario: The game is closed
 
