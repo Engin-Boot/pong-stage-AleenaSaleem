@@ -38,7 +38,7 @@
   When - A player is not eligible to change
   
   Then - ask if player is willing to pay and
-  Trigger the 'payment-handler' module
+  Trigger the 'paid-incentives' module
   
 ### Scenario: Payment successful
 
