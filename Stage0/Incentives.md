@@ -1,1 +1,1 @@
-# Incentivise the players based on performance
+# Incentivize the players based on performance
