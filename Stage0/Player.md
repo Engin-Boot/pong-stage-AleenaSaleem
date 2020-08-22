@@ -45,4 +45,4 @@
   
   When - A user confirms account removal
   
-  Then - add the user name to delete_list and sign out
+  Then - add the user name to delete-list and sign out
