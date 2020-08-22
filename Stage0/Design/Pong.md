@@ -35,6 +35,25 @@
 
   Given - An active device with game installed in it
   
-  When - A player requests to change properties but is not eligible
+  When - A player is not eligible to change
   
-  Then - Alert the player saying that reward points are not enough
+  Then - ask if player is willing to pay and
+  Trigger the 'payment-handler' module
+  
+### Scenario: Payment successful
+
+  Given - An active device with game installed in it
+  
+  When - the status of payment is fetched and is successful
+  
+  Then - ask to choose property and specify the options
+  and update property accordingly
+  
+  
+### Scenario: Payment unsuccessful
+  
+  Given - An active device with game installed in it
+  
+  When - the status of payment is fetched and is unsuccessful
+  
+  Then - trigger the 'paid-incentives' module
