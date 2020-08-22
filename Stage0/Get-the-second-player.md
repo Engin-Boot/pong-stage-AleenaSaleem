@@ -10,7 +10,7 @@
 
   Given - An active device with game installed in it and user is signed in
   and 'add-player' or 'play-single' button is displayed
- 
+
   When - First player clicks on 'add-player'
   
   Then - show text box to get the second player's name and
