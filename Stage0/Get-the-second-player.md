@@ -8,9 +8,9 @@
 
 ### Scenario: Second player is available
 
-  Given - An active device with game installed in it and
-  'add-player' or 'play-single' button is displayed
-  
+  Given - An active device with game installed in it and user is signed in
+  and 'add-player' or 'play-single' button is displayed
+ 
   When - First player clicks on 'add-player'
   
   Then - show text box to get the second player's name and
@@ -18,7 +18,7 @@
   
 ### Scenario: second player is not available
 
-  Given - An active device with game installed in it
+  Given - An active device with game installed in it and user is signed in
   
   When - A player chooses to 'play-single'
   
