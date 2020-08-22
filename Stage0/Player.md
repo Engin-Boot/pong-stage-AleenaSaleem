@@ -55,7 +55,7 @@
   
   Then - Fetch the user history and display it
   
-### Scenario: User requests changge in profile
+### Scenario: User requests change in profile
 
   Given - An active device with game installed in it and user is signed in
   
