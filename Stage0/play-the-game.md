@@ -32,3 +32,11 @@ Maintains scores and time for game rounds
   
   Then - Declare a winner or high score or tie depending on the score and game type
   and prompt for 'another-round' or 'go-back'
+  
+### Scenario: Calculate reward points
+
+  Given - An active device with the game installed in it
+  
+  When - A player scores five points consecutively
+  
+  Then - Add a point to reward points
