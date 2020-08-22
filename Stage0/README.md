@@ -19,3 +19,7 @@
   exceptions during a game
 
 * The interaction among modules has been illustrated in **sequence start** file
+
+* The modules in **Design** folder handle the display of the pong , paddle
+and the theme of the game and only interact with the modules outside when
+game board needs to be displayed.
