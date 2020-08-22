@@ -48,7 +48,7 @@
   
   Then - ask to choose property and specify the options
   and update property accordingly
- 
+
 ### Scenario: Payment unsuccessful
   
   Given - An active device with game installed in it
