@@ -21,3 +21,28 @@
   When - An action triggers change in paddle properties
   
   Then - Update the paddle properties and display it
+  
+### Scenario: change the paddle properties
+
+  Given - An active device with game installed in it
+  
+  When - A player requests change in any of the properties
+  
+  Then - Fetch the reward points and check if player is eligible to change
+  
+### Scenario: A player is eligible to change
+
+  Given - An active device with game installed in it
+  
+  When - A player requests and is eligible to change properties
+  
+  Then - ask to choose property and specify the options
+  and update property accordingly
+  
+### Scenario: A player is not eligible to change properties
+
+  Given - An active device with game installed in it
+  
+  When - A player requests to change properties but is not eligible
+  
+  Then - Alert the player saying that reward points are not enough
