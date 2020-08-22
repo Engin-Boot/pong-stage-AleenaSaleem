@@ -23,3 +23,7 @@
 * The modules in **Design** folder handle the display of the pong , paddle
 and the theme of the game and only interact with the modules outside when
 game board needs to be displayed.
+
+* The player module handles different actions of or by the user like profile , history etc.
+
+* The Menu module shows the menu for different operations a user can perform other than game.
