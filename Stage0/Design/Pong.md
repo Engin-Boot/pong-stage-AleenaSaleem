@@ -30,3 +30,11 @@
 
   Then - ask to choose property and specify the options
   and update property accordingly
+  
+### Scenario: A player is not eligible to change properties
+
+  Given - An active device with game installed in it
+  
+  When - A player requests to change properties but is not eligible
+  
+  Then - Alert the player saying that reward points are not enough
