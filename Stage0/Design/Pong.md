@@ -2,7 +2,7 @@
 
 ## Feature
 
-  define the properties of pong such as pong Size, pong Speed, pong Colour
+  define the properties of pong such as Size, Speed and Colour
   
 ## Acceptance Criteria
 
