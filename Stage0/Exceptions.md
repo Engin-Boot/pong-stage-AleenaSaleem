@@ -8,7 +8,7 @@
   
 ### Scenario: No activity for long (some threshold) time
   
-  Given - Active device with game installed in it
+  Given - Active device with game installed in it and user is signed in
   
   When - The game board has been idle for a long time
   
@@ -17,7 +17,7 @@
   
 ### Scenario: The device shuts abruptly
 
-  Given - Active device with game installed in it
+  Given - Active device with game installed in it and user is signed in
   
   When - the device shuts down during an active game
   
@@ -25,7 +25,7 @@
   
 ### Scenario: The game is closed
 
-  Given - Active device with game installed in it
+  Given - Active device with game installed in it and user is signed in
   
   When - A player wants to close the game
   
@@ -33,7 +33,7 @@
   
 ### Scenario: A player confirms exit
 
-  Given - Active device with game installed in it
+  Given - Active device with game installed in it and user is signed in
   
   When - player confirms game exit
   
