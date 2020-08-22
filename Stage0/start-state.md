@@ -8,7 +8,7 @@ Starts a new game or resumes a pending one based on user choice
 
 ### Scenario: Player opens the game with an existing pending game
 
-  Given - An active device with game installed in it
+  Given - An active device with game installed in it and user is signed in
 
   When - User opens the game and finds an old pending game
 
@@ -16,7 +16,7 @@ Starts a new game or resumes a pending one based on user choice
 
 ### Scenario: Player chooses to start a new game or there is no existing game
 
-  Given - An active device with game installed in it
+  Given - An active device with game installed in it and user is signed in
   
   When - User opens the game
   
@@ -24,7 +24,7 @@ Starts a new game or resumes a pending one based on user choice
   
 ### Scenario: Player chooses to resume an old game
 
-  Given - An active device with game installed in it
+  Given - An active device with game installed in it and user is signed in
   
   When - User taps on 'resume'
   
@@ -32,7 +32,7 @@ Starts a new game or resumes a pending one based on user choice
   
 ### Scenario: User clicks on 'start-game' button
 
-  Given - An active device with game installed in it
+  Given - An active device with game installed in it and user is signed in
   
   When - User clicks on 'start-game'  button
   
