@@ -18,4 +18,4 @@
   * Exceptions: This modules captures all the external and internal
   exceptions during a game
 
-* The interaction among aboves module has been illustrated in **sequence start** file
+* The interaction among modules has been illustrated in **sequence start** file
