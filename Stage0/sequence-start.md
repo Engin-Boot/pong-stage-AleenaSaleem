@@ -12,4 +12,4 @@
 
 -describe-how-the-modules-interact-to-record-scores
 
-![Module-interaction](flow.png)
+![Module-interaction](Flow.png)
