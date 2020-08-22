@@ -31,8 +31,8 @@
    
    Then - Display the theme list and ask to choose one
    
- ### Scenario: A player is not eligible to change theme
- 
+### Scenario: A player is not eligible to change theme
+
   Given - An active device with game insatlled in it
   
   When - A player requests to change theme but is not eligible
