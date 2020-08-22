@@ -46,3 +46,19 @@
   When - A user confirms account removal
   
   Then - add the user name to delete-list and sign out
+  
+### Scenario: User requests history
+
+  Given - An active device with game installed in it and user is signed in
+  
+  When - User requests to view his or her story
+  
+  Then - Fetch the user history and display it
+  
+### Scenario: User requests changge in profile
+
+  Given - An active device with game installed in it and user is signed in
+  
+  When - User requests to edit his or her profile
+  
+  Then - ask for field and update accordingly
