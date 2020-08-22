@@ -12,7 +12,7 @@
   
   When - the game board is displayed
   
-  Then - Fetch the aplicable or chosen theme and apply it
+  Then - Fetch the applicable or chosen theme and apply it
   
 ### Scenario: Change the theme of the game
 
