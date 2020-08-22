@@ -25,12 +25,12 @@
 ### Scenario: A player is eligible to change theme
 
    Given - An active device with game insatlled in it
-   
+
    When - A player is eligible to change the theme
    ( has enough reward points )
-   
+
    Then - Display the theme list and ask to choose one
-   
+
 ### Scenario: A player is not eligible to change theme
 
   Given - An active device with game insatlled in it
