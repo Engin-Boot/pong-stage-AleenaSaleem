@@ -2,7 +2,7 @@
 
 ## Feature
 
-  define the properties of paddle such as paddle Size, paddle Speed and paddle Colour
+  define the properties of paddle such as Size, Speed and Colour
   
 ## Acceptance Criteria
 
