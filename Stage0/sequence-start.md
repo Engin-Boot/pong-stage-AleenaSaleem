@@ -11,5 +11,3 @@
 ## One score
 
 -describe-how-the-modules-interact-to-record-scores
-
-![Module-interaction](Flow.png)
