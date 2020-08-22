@@ -8,7 +8,7 @@
 
 ### Scenario: apply the theme of the game
 
-  Given - An active device with game installed in it
+  Given - An active device with game installed in it and user is signed in
   
   When - the game board is displayed
   
@@ -16,7 +16,7 @@
   
 ### Scenario: Change the theme of the game
 
-  Given - An active device with game installed in it
+  Given - An active device with game installed in it and user is signed in
   
   When - A player chooses to change the theme
   
@@ -24,7 +24,7 @@
   
 ### Scenario: A player is eligible to change theme
 
-   Given - An active device with game installed in it
+   Given - An active device with game installed in it and user is signed in
 
    When - A player is eligible to change the theme
    ( has enough reward points )
@@ -33,7 +33,7 @@
 
 ### Scenario: A player is not eligible to change theme
 
-  Given - An active device with game installed in it
+  Given - An active device with game installed in it and user is signed in
   
   When - A player requests to change theme but is not eligible
   
