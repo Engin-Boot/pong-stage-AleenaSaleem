@@ -8,7 +8,7 @@ Maintains scores and time for game rounds
 
 ### Scenario: A player scores a point
 
-  Given - An active device with the game installed in it
+  Given - An active device with the game installed in it and user is signed in
 
   When - Any player scores a point and there is time left
 
@@ -17,7 +17,7 @@ Maintains scores and time for game rounds
 
 ### Scenario: Maximum points are reached
 
-  Given - An active device with the game installed in it
+  Given - An active device with the game installed in it and user is signed in
   
   When - any player scores maximum points
   
@@ -26,7 +26,7 @@ Maintains scores and time for game rounds
   
 ### Scenario: The timer times out in either single or double player
 
-  Given - An active device with the game installed in it
+  Given - An active device with the game installed in it and user is signed in
   
   When - The round is timed out
   
@@ -35,7 +35,7 @@ Maintains scores and time for game rounds
   
 ### Scenario: Calculate reward points
 
-  Given - An active device with the game installed in it
+  Given - An active device with the game installed in it and user is signed in
   
   When - A player scores five points consecutively
   
