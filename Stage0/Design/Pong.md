@@ -47,8 +47,7 @@
   When - the status of payment is fetched and is successful
   
   Then - ask to choose property and specify the options
-  and update property accordingly
-  
+  and update property accordingly  
   
 ### Scenario: Payment unsuccessful
   
