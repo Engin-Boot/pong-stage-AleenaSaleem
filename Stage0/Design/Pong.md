@@ -26,7 +26,7 @@
 
   Given - An active device with game installed in it
   
-  When - A player requets and is eligible to change properties
-  
+  When - A player requests and is eligible to change properties
+
   Then - ask to choose property and specify the options
   and update property accordingly
