@@ -8,7 +8,7 @@
 
 ### Scenario: A player hits the opponent's wall
 
-  Given - An active device with game installed in it
+  Given - An active device with game installed in it and user is signed in
   
   When - A player hits the opponent's wall
   
@@ -16,7 +16,7 @@
   
 ### Scenario: A player hits opponent's paddle
 
-  Given - An active device with game installed in it
+  Given - An active device with game installed in it and user is signed in
   
   When - Opponent stops the pong with his or her paddle
   (paddle moves with certain predefined speed)
