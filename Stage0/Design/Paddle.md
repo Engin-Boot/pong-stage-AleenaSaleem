@@ -8,7 +8,7 @@
 
 ### Scenario: Display the paddle on game board
 
-  Given - An active device with game installed in it
+  Given - An active device with game installed in it and user is signed in
   
   When - The game board is displayed
   
@@ -16,7 +16,7 @@
 
 ### Scenario: change the paddle properties
 
-  Given - An active device with game installed in it
+  Given - An active device with game installed in it and user is signed in
   
   When - A player requests change in any of the properties
   
@@ -24,7 +24,7 @@
   
 ### Scenario: A player is eligible to change
 
-  Given - An active device with game installed in it
+  Given - An active device with game installed in it and user is signed in
   
   When - A player requests and is eligible to change properties
   
@@ -33,7 +33,7 @@
   
 ### Scenario: A player is not eligible to change properties
 
-  Given - An active device with game installed in it
+  Given - An active device with game installed in it and user is signed in
   
   When - A player is not eligible to change
   
