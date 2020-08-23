@@ -10,6 +10,6 @@
   
 * A reward point is gifted if a player scores five points consecutively.
   
-* Minimum 60 reward points are needed to change any feature.
-  
+* Minimum 50 reward points are needed to change any feature.
+
 * Reward points , both bought and earned , expire after 5 days of life time.
