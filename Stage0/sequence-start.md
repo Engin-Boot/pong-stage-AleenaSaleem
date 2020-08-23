@@ -3,3 +3,5 @@
   This needs to be updated!
   
 ![Module-interaction](Sequence.png)
+
+![Module-interaction](Flow.png)
