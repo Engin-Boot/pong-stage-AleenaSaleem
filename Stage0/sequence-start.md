@@ -2,4 +2,4 @@
 
   This needs to be updated!
   
-![Module-interaction](Flow.png)
+![Module-interaction](Sequence.png)
