@@ -2,7 +2,7 @@
 
 ## Feature
 
-  define the properties of pong such as Size , Speed and Color
+  define the properties of pong such as Size , Speed , direction and Color
   
 ## Acceptance Criteria
 
@@ -38,3 +38,11 @@
   When - A player is not eligible to change
   
   Then - Alert that reward points are not sufficient
+  
+### Scenario: Change in direction of the pong
+
+  Given - An active device with game installed in it and user is signed in
+  
+  When - pong hits either the wall or the paddle
+  
+  Then - change the pong direction
