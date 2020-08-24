@@ -12,7 +12,8 @@
   
   When - A player hits the opponent's wall
   
-  Then - trigger the 'play-the-game' module
+  Then - ball bounces back with certain predefined speed
+  and trigger the 'play-the-game' module
   
 ### Scenario: A player hits opponent's paddle
 
