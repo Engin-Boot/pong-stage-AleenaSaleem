@@ -2,11 +2,6 @@
 
 ## Feature
   
-  This loop keeps running continuously until the game is closed.  
-  It takes in game frames at regular intervals and detects activity.  
-  
-## Acceptance Criteria
-
-### Scenario: Update pong position
-
-  Given - An active device with game installed in it and user is signed in
+  A game loop runs continuously during gameplay.  
+  Each turn of the loop, it processes user input without blocking, updates the game state, and renders the game.  
+  It tracks the passage of time to control the rate of gameplay.
