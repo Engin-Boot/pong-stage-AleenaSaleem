@@ -1,4 +1,4 @@
-# The continuous loop
+# The Game loop
 
 ## Feature
   
