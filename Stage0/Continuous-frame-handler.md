@@ -2,7 +2,7 @@
 
 ## Feature
   
-  This loop keeps running cotinuously until the game is closed.  
+  This loop keeps running continuously until the game is closed.  
   It takes in game frames at regular intervals and detects activity.  
   
 ## Acceptance Criteria
