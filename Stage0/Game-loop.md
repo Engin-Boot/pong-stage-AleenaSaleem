@@ -50,7 +50,7 @@
   
   When - there is collision between pong and right or left wall
   
-  Then - Bounce back the pong and trigger the 'play the game' module for score updation
+  Then - Bounce back the pong and trigger the 'play the game' module for score update
   
 ## Render new frame
 
