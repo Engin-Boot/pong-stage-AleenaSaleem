@@ -42,7 +42,7 @@
   
   When - there is collision between pong and top or bottom of the screen
   
-  Then - Bounce back the pong 
+  Then - Bounce back the pong
   
 ### Scenario: Collision between pong and right or left wall
 
