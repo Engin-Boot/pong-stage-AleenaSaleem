@@ -50,7 +50,7 @@
   
   When - there is collision between pong and right or left wall
   
-  Then - Bounce back the pong and trigger the 'play-the-game' module for score updation
+  Then - Bounce back the pong and trigger the 'play the game' module for score updation
   
 ## Render new frame
 
@@ -58,6 +58,6 @@
 
   Given - An active device with game installed in it and user is signed in
   
-  When - Frame is ready to be drawm
+  When - Frame is ready to be drawn
   
   Then - draw the new frame on the scene and repeat the game loop
