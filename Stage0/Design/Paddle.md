@@ -6,15 +6,7 @@
   
 ## Acceptance Criteria
 
-### Scenario: Display the paddle on game board
-
-  Given - An active device with game installed in it and user is signed in
-  
-  When - The game board is displayed
-  
-  Then - set the paddle properties and display it
-
-### Scenario: change the paddle properties
+### Scenario: change the paddle properties - update
 
   Given - An active device with game installed in it and user is signed in
   
