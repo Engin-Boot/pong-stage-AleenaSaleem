@@ -6,7 +6,7 @@
   
 ## Acceptance Criteria
 
-### Scenario: Game is installed for first time
+### Scenario: Game is installed for first time - sign up
 
   Given - An active device with game installed in it
   
@@ -14,8 +14,9 @@
   
   Then - ask for user details and a user name
   and check if user name is available or not
+  and sign a user up.
   
-### Scenario: User name already exists
+### Scenario: User name already exists - Is User Name Available 
 
   Given - An active device with game installed in it
   
@@ -23,7 +24,7 @@
   
   Then - prompt to enter another username and repeat until a username is available
   
-### Scenario: A user name is available
+### Scenario: A user name is available 
 
   Given - An active device with game installed in it
   
@@ -31,7 +32,7 @@
   
   Then - add the user name to list of usernames and trigger the 'start-state' module
   
-### Scenario: A player requests to delete account
+### Scenario: A player requests to delete account 
 
   Given - An active device with game installed in it and user is signed in
   
@@ -47,7 +48,7 @@
   
   Then - add the user name to delete-list and sign out
   
-### Scenario: User requests history
+### Scenario: User requests history - show history
 
   Given - An active device with game installed in it and user is signed in
   
@@ -55,7 +56,7 @@
   
   Then - Fetch the user history and display it
   
-### Scenario: User requests change in profile
+### Scenario: User requests change in profile - show profile
 
   Given - An active device with game installed in it and user is signed in
   
