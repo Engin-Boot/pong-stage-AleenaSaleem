@@ -14,7 +14,7 @@
   
   Then - set the pong properties and display it
   
-### Scenario: change the pong properties
+### Scenario: change the pong properties - update
 
   Given - An active device with game installed in it and user is signed in
   
@@ -39,7 +39,7 @@
   
   Then - Alert that reward points are not sufficient
   
-### Scenario: Change in direction of the pong
+### Scenario: Change in direction of the pong - reverse direction
 
   Given - An active device with game installed in it and user is signed in
   
