@@ -6,10 +6,10 @@
   
 ## Acceptance Criteria
 
-### Scenario: Display the game board
+### Scenario: Change colour or Resize
 
   Given - An active device with game installed in it and user is signed in
   
-  When - The game starts
+  When - User requests to change colour or resize the game board
   
-  Then - Fetch the game board properties and display the game board
+  Then - Check if user is eligible and act accordingly
