@@ -1,4 +1,4 @@
-# The taste of success
+# The taste of success - The sequence diagram has not been added yet
 
 Your game is trending! The installations are encouraging!
 
