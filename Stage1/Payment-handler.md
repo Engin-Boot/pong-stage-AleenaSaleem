@@ -10,7 +10,7 @@
 
   Given - An active device with game installed in it and user is signed in
   
-  When - a user wants to buy and requests payment options
+  When - a user wants to buy reward points and requests payment options
   
   Then - show the list of options and act accordingly
   
